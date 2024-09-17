@@ -45,13 +45,5 @@ if st.button("Predict"):
 # Footer
 import streamlit as st
 
-# Creating a button as an anchor link
-st.markdown("""
-    <a href="https://www.google.com" target="_blank">
-        <button style="background-color:LightBlue; border:none; padding:10px 20px; text-align:center; text-decoration:none; display:inline-block; font-size:16px; cursor:pointer; border-radius:5px;">
-            Go to google.com
-        </button>
-    </a>
-    """, unsafe_allow_html=True)
 
 st.write("Model: Logistic Regression | Vectorization: TF-IDF")
